@@ -1,0 +1,117 @@
+body {
+  overflow-x: hidden;
+}
+
+.menu-item a:hover {
+  text-decoration: none;
+}
+
+#masthead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #fdce02 !important;
+}
+
+.swiper-button-prev {
+  cursor: w-resize !important;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  color: black;
+}
+
+.swiper-button-next {
+  cursor: e-resize !important;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  color: black;
+}
+
+div.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+}
+
+.tribe-events-page-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 19px 0 20px 0;
+  background-color: rgb(249, 249, 249);
+  border-bottom: 1px solid #fceca6;
+  color: rgb(33, 37, 41);
+}
+
+#mensagens-div {
+  min-height: 100vh;
+  background-image: url("https://www.ibasp.org.br/wp-content/uploads/2018/08/Vr6KoNRg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#avisos-div {
+  min-height: 65vh;
+  background-image: url("https://www.ibasp.org.br/wp-content/uploads/2018/08/P130802-9_v1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+blockquote, blockquote p {
+  font-weight: 400 !important;
+}
+
+#nav-posts a {
+  position: relative;
+  border: 1px solid #fdce02;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  max-width: 180px;
+}
+
+#nav-posts a:hover {
+  text-decoration: none;
+  background-color: #fdce02;
+}
+
+#nav-posts a:hover i {
+  border-color: white;
+}
+
+#nav-posts a i {
+  color: darkgray;
+  background-color: white;
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #fdce02;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+figure.wp-block-embed.is-type-video.is-provider-facebook>.wp-block-embed__wrapper {
+  height: 100%;
+  padding-top: 0;
+}
