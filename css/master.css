@@ -33,7 +33,7 @@ body {
   color: black;
 }
 
-div.card-title {
+.card-title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,7 +111,7 @@ blockquote, blockquote p {
   padding: 5px;
 }
 
-figure.wp-block-embed.is-type-video.is-provider-facebook>.wp-block-embed__wrapper {
+.is-provider-facebook>.wp-block-embed__wrapper {
   height: 100%;
   padding-top: 0;
 }

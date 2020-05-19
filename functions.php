@@ -4,14 +4,14 @@ function ibaspEstilos()
 {
   //css
   wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap-4.4.1.min.css', array(), '4.4.1');
-  wp_enqueue_style('swiper', get_stylesheet_directory_uri() . '/css/swiper-5.3.8.min.css', array(), '5.3.8');
-  wp_enqueue_style('master', get_stylesheet_directory_uri() . '/css/master.css', array(), '5.1.1');
+  wp_enqueue_style('swiper', get_stylesheet_directory_uri() . '/css/swiper-5.4.0.min.css', array(), '5.4.0');
+  wp_enqueue_style('master', get_stylesheet_directory_uri() . '/css/master.css', array(), '5.1.5');
 
   //js
   wp_enqueue_script('jquery', get_stylesheet_directory_uri() . '/js/jquery-3.3.1.slim.min.js', '3.5.1', true);
   wp_enqueue_script('bootstrapjs', get_stylesheet_directory_uri() . '/js/bootstrap-4.4.1.min.js', '4.4.1', true);
-  wp_enqueue_script('lazysizes', get_stylesheet_directory_uri() . '/js/lazysizes.min.js', '5.2.0', true);
-  wp_enqueue_script('swiperjs', get_stylesheet_directory_uri() . '/js/swiper-5.3.8.min.js', '5.3.8', true);
+  wp_enqueue_script('lazysizes', get_stylesheet_directory_uri() . '/js/lazysizes-5.2.0.min.js', '5.2.0', true);
+  wp_enqueue_script('swiperjs', get_stylesheet_directory_uri() . '/js/swiper-5.4.0.min.js', '5.4.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'ibaspEstilos');
